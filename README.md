@@ -14,12 +14,11 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk synth`       emits the synthesized CloudFormation template
 
 
-Example
 
-##Deploy the stack
+##Examples
 
+##Deploy the stack :
 `cdk deploy AwsCustomResourceCdkStack --profile <replace profile name here> --path-metadata false --version-reporting false`
 
-##Delete the stack
-
+##Delete the stack :
 `cdk destroy AwsCustomResourceCdkStack --profile <replace profile name here> --path-metadata false --version-reporting false`
