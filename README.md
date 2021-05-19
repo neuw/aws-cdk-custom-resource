@@ -15,10 +15,10 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 
 
-##Examples
+## Examples
 
-##Deploy the stack :
+## Deploy the stack :
 `cdk deploy AwsCustomResourceCdkStack --profile <replace profile name here> --path-metadata false --version-reporting false`
 
-##Delete the stack :
+## Delete the stack :
 `cdk destroy AwsCustomResourceCdkStack --profile <replace profile name here> --path-metadata false --version-reporting false`
